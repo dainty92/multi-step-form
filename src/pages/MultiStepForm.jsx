@@ -92,7 +92,7 @@ const MultiStepForm = () => {
                   />
                   <div className="hidden sm:flex justify-end w-full mt-6">
                     <button
-                      className="bg-marine text-white px-6 py-2 rounded-md hover:bg-purplish transition"
+                      className="bg-marine text-white px-6 py-2 rounded-md hover:bg-marine hover:bg-opacity-75 transition"
                       onClick={nextStep}
                     >
                       Next Step
@@ -155,7 +155,7 @@ const MultiStepForm = () => {
                     <button className="text-coolGray hover:text-marine" onClick={prevStep}>
                       Go Back
                     </button>
-                    <button className="bg-purplish text-white px-6 py-2 rounded-md hover:bg-opacity-5" onClick={handleConfirm}>
+                    <button className="bg-purplish text-white px-6 py-2 rounded-md hover:bg-pastel" onClick={handleConfirm}>
                       Confirm
                     </button>
                   </div>

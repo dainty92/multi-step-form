@@ -14,7 +14,7 @@ const StepOne = ({ formData, handleChange, errors, touched, nextStep }) => {
           <div className="flex justify-between items-center">
             <label className="text-sm font-medium text-marine">Name</label>
             {errors?.name && touched?.name && (
-              <span className="text-sm text-red-500 font-medium">{errors.name}</span>
+              <span className="text-sm text-strawberry font-medium">{errors.name}</span>
             )}
           </div>
           <input
@@ -24,7 +24,7 @@ const StepOne = ({ formData, handleChange, errors, touched, nextStep }) => {
             placeholder="e.g. Stephen King"
             className={`
               border py-2 px-4 rounded-md font-medium outline-none
-              ${errors?.name && touched?.name ? 'border-red-500' : 'border'}
+              ${errors?.name && touched?.name ? 'border-strawberry' : 'border'}
               focus:ring-2 focus:ring-purplish
             `}
           />
@@ -35,7 +35,7 @@ const StepOne = ({ formData, handleChange, errors, touched, nextStep }) => {
           <div className="flex justify-between items-center">
             <label className="text-sm font-medium text-marine">Email Address</label>
             {errors?.email && touched?.email && (
-              <span className="text-sm text-red-500 font-medium">{errors.email}</span>
+              <span className="text-sm text-strawberry font-medium">{errors.email}</span>
             )}
           </div>
           <input
@@ -46,7 +46,7 @@ const StepOne = ({ formData, handleChange, errors, touched, nextStep }) => {
             placeholder="e.g. stephenking@lorem.com"
             className={`
               border py-2 px-4 rounded-md font-medium outline-none
-              ${errors?.email && touched?.email ? 'border-red-500' : 'border'}
+              ${errors?.email && touched?.email ? 'border-strawberry' : 'border'}
               focus:ring-2 focus:ring-purplish
             `}
           />
@@ -57,7 +57,7 @@ const StepOne = ({ formData, handleChange, errors, touched, nextStep }) => {
           <div className="flex justify-between items-center">
             <label className="text-sm font-medium text-marine">Phone Number</label>
             {errors?.phone && touched?.phone && (
-              <span className="text-sm text-red-500 font-medium">{errors.phone}</span>
+              <span className="text-sm text-strawberry font-medium">{errors.phone}</span>
             )}
           </div>
           <input
@@ -68,7 +68,7 @@ const StepOne = ({ formData, handleChange, errors, touched, nextStep }) => {
             placeholder="e.g. +1 234 567 890"
             className={`
               border py-2 px-4 rounded-md font-medium outline-none
-              ${errors?.phone && touched?.phone ? 'border-red-500' : 'border'}
+              ${errors?.phone && touched?.phone ? 'border-strawberry' : 'border'}
               focus:ring-2 focus:ring-purplish
             `}
             required

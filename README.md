@@ -34,12 +34,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./multi-step-form.png)
 
 ### Links
 
-- Solution URL: [https://github.com/estherajayi/multi-step-form](https://github.com/estherajayi/multi-step-form)
-- Live Site URL: [https://multi-step-form-esther.vercel.app](https://multi-step-form-esther.vercel.app)
+- Solution URL: [https://github.com/dainty92/multi-step-form](https://github.com/dainty92/multi-step-form)
+- Live Site URL: [https://multi-step-form-wheat-chi.vercel.app/](https://multi-step-form-wheat-chi.vercel.app/)
 
 ## My process
 
@@ -82,14 +82,10 @@ Writing unit and integration tests
 ### Useful resources
 Tailwind CSS Docs - [https://tailwindcss.com/docs/installation/using-vite](https://tailwindcss.com/docs/installation/using-vite) – for responsive design and hover/focus states.
 
-React documentation – to better manage state in component trees.
-
-Frontend Mentor Discord – for community support and feedback.
-
 ### Author
 Website – Esther Ajayi
 
-Frontend Mentor – @estherajayi
+Frontend Mentor – @esther-must
 
 Twitter – @adexdainty92
 
